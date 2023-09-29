@@ -1,0 +1,63 @@
+body
+{
+    background-image: url(ticmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head1
+{
+    margin-left: 450px;
+    font-size: 30px;
+}
+.head2
+{  
+    margin:100px 0px 0px 456px ;
+    padding-top: 20px ;
+    width: 588px;height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(135, 210, 168, 0.808);
+    z-index: 1;
+}
+.player1 label,input,select,.player2 label,input,select
+{
+    margin: 46px 0px 10px 0px;
+    padding: 6px;
+    font-size: 20px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.player1 input,.player2 input
+{
+    border: none;
+    border-bottom:3px solid black;
+}
+.span
+{
+    padding-top: 50px;
+    font-size:20px ;
+}
+#series
+{
+    font-size:30px ;
+    margin-top: 10px;
+    padding: 0px 0px 0px 62px;
+}
+.reset input
+{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 60px;
+}
+button
+{
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: rgb(28, 229, 28);
+    color: rgb(249, 70, 70);
+    border-radius: 10px;
+    border: none;
+    box-shadow: black 5px 5px 5px;
+}

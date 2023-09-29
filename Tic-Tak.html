@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tic-Tak.css">
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+    <title>Tick-Tak-Toe</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <span>TRY's LEFT :<span class="try" id="nav"></span></span>
+    </div>
+    <div class="head1">
+        <div class="player1">
+            <div class="lab">Player 1</div>
+            <label id="pn1"></label><br>
+            <label id="pn3"></label>
+            <div class="re">POINT'S</div>
+            <div class="res1box" id="point1"></div>
+            <div class="winbox" id="winb1"></div>
+        </div>
+        <span id="hide"><button id="perform">Press to restart</button></span>
+        <div class="box" id="outerbox" >
+            <div class="row1">
+                <div class="sq" >
+                    <button id="b1" onclick="change('b1',1)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b2" onclick="change('b2',2)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b3" onclick="change('b3',3)"></button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="sq">
+                    <button id="b4" onclick="change('b4',4)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b5" onclick="change('b5',5)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b6" onclick="change('b6',6)"></button>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="sq">
+                    <button id="b7" onclick="change('b7',7)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b8" onclick="change('b8',8)"></button>
+                </div>
+                <div class="sq">
+                    <button id="b9" onclick="change('b9',9)"></button>
+                </div>
+            </div>
+        </div>
+        <div class="player2">
+            <div class="lab">Player 2</div>
+            <label id="pn2"></label><br>
+            <label id="pn4"></label>
+            <div class="re">POINT'S</div>
+            <div class="res2box" id="point2"></div>
+            <div class="winbox" id="winb2"></div>
+        </div>
+    </div>
+    <div class="head2">
+        <div class="otheropt">
+            <span class="btt1"><button type="button">
+                    <a
+                        href="E:\DOCUMENT\CODES\Front End\HTML,CSS,JavaScript\Project\JavaScript\2.Tic-Tak\1.Entry page\Entry page.html" >
+                        New Game(user)
+                    </a></button></span>
+            <button type="button" id="restart" onclick="refresh()">Undo</button>
+        </div>
+    </div>
+    <div class="head3">
+        <div class="res">
+            <label id="output"></label>
+            <div class="resultbox" id="resbox"> </div>
+        </div>
+    </div>
+
+    <script src="Tic-Tak.js"></script>
+</body>
+
+</html>

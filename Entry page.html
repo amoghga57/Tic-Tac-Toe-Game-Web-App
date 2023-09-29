@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Entry page.css">
+    <title>Welcome to tick-tack-toe game</title>
+</head>
+
+<body>
+    <div class="head1">
+        <h2><u><i><b>TICK - TACK - TOE  GAME</b></i></u></h2>
+    </div>
+    <div class="head2">
+        <form action="E:\DOCUMENT\CODES\Front End\HTML,CSS,JavaScript\Project\JavaScript\2.Tic-Tak\2.game page\Tic-Tak.html" onsubmit="run()" >
+            <div class="player1">
+                <label><b>Player 1 : </b></label><input type="text" name="player1name" id="play1" placeholder="Enter 1st player name"  autocomplete="off" required minlength="3" maxlength="10" >
+                <select name="" id="p1xo" oninput="check1()" required >
+                    <option value="">Choose</option>
+                    <option value="X">X</option>
+                    <option value="O">O</option>
+                </select>
+            </div>
+            <div class="player2">
+                <label><b>Player 2 : </b></label><input type="text"  name="player2name" id="play2" placeholder="Enter 2nd player name" autocomplete="off" required minlength="3" maxlength="10">
+                <select name="" id="p2xo" oninput="check2()" required>
+                    <option value="">Choose</option>
+                    <option value="O">O</option>
+                    <option value="X">X</option>
+                </select>
+            </div>
+            <div class="span">Number of Series</div>
+            <input type="number" name="Ser" id="series" min="1" max="10" required>
+            <br>
+            <div class="reset" onclick="reset()"><input type="reset"></div>
+            <button >CONTINUE TO PLAY</button>
+        </form>
+    </div>
+    </form>
+
+    <script src="Entry page.js"></script>
+</body>
+
+</html>
