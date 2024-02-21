@@ -2,4 +2,4 @@
 <h4>Click the Below WebSite URL</h4>
 
 
-![alt text](https://amoghga57.github.io/Tic-tac-toe/)
+([https://amoghga57.github.io/Tic-tac-toe/])
